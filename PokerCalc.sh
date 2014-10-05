@@ -33,7 +33,7 @@ HCperc=`echo "scale=4; $HC*100/$TOT" | bc`
 #Actual Output
 echo "+----------------+----------+------------+" 
 echo "| HANDS          | FREQUENCY| PERCENTAGE |"
-echo "+----------------+----------+------------+"  
+echo "+----------------+----------+------------+" 
 echo "| ROYAL FLUSH    | $RF | $RFperc% \t |"
 echo "| STRAIGHT FLUSH | $SF | $SFperc% \t |"
 echo "| QUADS          | $FK | $FKperc% \t |"

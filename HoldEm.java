@@ -571,7 +571,7 @@ public class HoldEm
     }
     
     public static void main(String args []){
-        int deck [][]= new int [52] [2]; //ordered with first row being card value (0 for ace) [card]x[suit]
+        int deck [][]= new int [52] [2]; //ordered with first row being card value (12 for ace) [card]x[suit]
         int hand [][]=new int [7][2];
         shuffle(deck);//Gets a new shuffled deck of cards
         //output_deck(deck);//Outputs the deck of cards in plain english
